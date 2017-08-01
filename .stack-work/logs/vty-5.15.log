@@ -30,3 +30,20 @@ Preprocessing library vty-5.15...
 [27 of 35] Compiling Data.Terminfo.Parse ( src/Data/Terminfo/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Terminfo/Parse.o )
 [28 of 35] Compiling Data.Terminfo.Eval ( src/Data/Terminfo/Eval.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Terminfo/Eval.o )
 [29 of 35] Compiling Graphics.Vty.Output.TerminfoBased ( src/Graphics/Vty/Output/TerminfoBased.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty/Output/TerminfoBased.o )
+[30 of 35] Compiling Graphics.Vty.Output.XTermColor ( src/Graphics/Vty/Output/XTermColor.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty/Output/XTermColor.o )
+[31 of 35] Compiling Graphics.Vty.Output ( src/Graphics/Vty/Output.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty/Output.o )
+[32 of 35] Compiling Graphics.Vty     ( src/Graphics/Vty.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty.o )
+[33 of 35] Compiling Graphics.Vty.Inline.Unsafe ( src/Graphics/Vty/Inline/Unsafe.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty/Inline/Unsafe.o )
+[34 of 35] Compiling Graphics.Vty.Inline ( src/Graphics/Vty/Inline.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Vty/Inline.o )
+[35 of 35] Compiling Codec.Binary.UTF8.Debug ( src/Codec/Binary/UTF8/Debug.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/UTF8/Debug.o )
+Preprocessing executable 'vty-mode-demo' for vty-5.15...
+[1 of 1] Compiling Main             ( demos/ModeDemo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/vty-mode-demo/vty-mode-demo-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/vty-mode-demo/vty-mode-demo ...
+Preprocessing executable 'vty-demo' for vty-5.15...
+[1 of 1] Compiling Main             ( demos/Demo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/vty-demo/vty-demo-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/vty-demo/vty-demo ...
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/vty-5.15-4iWpbnNxbZZEw9yg8g3dZQ
+Installing executable(s) in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/bin
+Registering vty-5.15...

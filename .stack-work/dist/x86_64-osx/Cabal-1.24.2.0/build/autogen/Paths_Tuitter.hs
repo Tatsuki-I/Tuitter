@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/bin"
-libdir     = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/Tuitter-0.1.0.0-1eVgorDwDJr5D2XTSKaCrs"
-dynlibdir  = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2"
-datadir    = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/share/x86_64-osx-ghc-8.0.2/Tuitter-0.1.0.0"
-libexecdir = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/libexec"
-sysconfdir = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/etc"
+bindir     = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/bin"
+libdir     = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/Tuitter-0.1.0.0-G9B9dLW0brA9uok2t4HJ34"
+dynlibdir  = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2"
+datadir    = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/share/x86_64-osx-ghc-8.0.2/Tuitter-0.1.0.0"
+libexecdir = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/libexec"
+sysconfdir = "/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-8.0/8.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "Tuitter_bindir") (\_ -> return bindir)

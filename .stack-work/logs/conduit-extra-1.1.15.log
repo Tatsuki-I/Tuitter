@@ -30,3 +30,11 @@ Data/Conduit/Binary.hs:580:36: warning: [-Wdeprecations]
     In the use of ‘inlinePerformIO’
     (imported from Data.ByteString.Internal):
     Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[11 of 12] Compiling Data.Conduit.Process ( Data/Conduit/Process.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Process.o )
+[12 of 12] Compiling Data.Conduit.Attoparsec ( Data/Conduit/Attoparsec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Conduit/Attoparsec.o )
+
+Data/Conduit/Attoparsec.hs:77:5: warning: [-Wunused-top-binds]
+    Defined but not used: ‘notEmpty’
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/conduit-extra-1.1.15-JEv6O9bpMF8JkNI7vhhZhb
+Registering conduit-extra-1.1.15...
