@@ -1,3 +1,5 @@
+module Tuitter where
+
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE DeriveGeneric #-}
 import Web.Authenticate.OAuth
@@ -87,4 +89,3 @@ tweetRun = do str <- fromMaybe "" <$> (runInputT defaultSettings
                                        'Y' -> tweetRun
                                        _   -> return ()
 
-main = tweetRun

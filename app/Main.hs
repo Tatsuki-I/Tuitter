@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Tuitter
 
 main :: IO ()
-main = someFunc
+main = tweetRun

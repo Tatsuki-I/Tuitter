@@ -7,12 +7,61 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
+/* package aeson-1.1.2.0 */
+#define VERSION_aeson "1.1.2.0"
+#define MIN_VERSION_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 2)
+
+/* package authenticate-oauth-1.6 */
+#define VERSION_authenticate_oauth "1.6"
+#define MIN_VERSION_authenticate_oauth(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  6 || \
+  (major1) == 1 && (major2) == 6 && (minor) <= 0)
+
 /* package base-4.9.1.0 */
 #define VERSION_base "4.9.1.0"
 #define MIN_VERSION_base(major1,major2,minor) (\
   (major1) <  4 || \
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
+
+/* package bytestring-0.10.8.1 */
+#define VERSION_bytestring "0.10.8.1"
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 8)
+
+/* package haskeline-0.7.4.0 */
+#define VERSION_haskeline "0.7.4.0"
+#define MIN_VERSION_haskeline(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 4)
+
+/* package http-conduit-2.2.3.2 */
+#define VERSION_http_conduit "2.2.3.2"
+#define MIN_VERSION_http_conduit(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 3)
+
+/* package text-1.2.2.2 */
+#define VERSION_text "1.2.2.2"
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 2)
+
+/* package utf8-string-1.0.1.1 */
+#define VERSION_utf8_string "1.0.1.1"
+#define MIN_VERSION_utf8_string(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 1)
 
 /* package vty-5.16 */
 #define VERSION_vty "5.16"
@@ -91,7 +140,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "Tuitter-0.1.0.0-LnhvafVnezE9dGzXSygR9P"
+#define CURRENT_COMPONENT_ID "Tuitter-0.1.0.0-1eVgorDwDJr5D2XTSKaCrs"
 
-#define CURRENT_PACKAGE_KEY "Tuitter-0.1.0.0-LnhvafVnezE9dGzXSygR9P"
+#define CURRENT_PACKAGE_KEY "Tuitter-0.1.0.0-1eVgorDwDJr5D2XTSKaCrs"
 
