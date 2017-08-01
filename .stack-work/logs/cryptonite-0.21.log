@@ -112,3 +112,5 @@ Preprocessing library cryptonite-0.21...
 [109 of 111] Compiling Crypto.Cipher.Blowfish ( Crypto/Cipher/Blowfish.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Crypto/Cipher/Blowfish.o )
 [110 of 111] Compiling Crypto.Cipher.AES.Primitive ( Crypto/Cipher/AES/Primitive.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Crypto/Cipher/AES/Primitive.o )
 [111 of 111] Compiling Crypto.Cipher.AES ( Crypto/Cipher/AES.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Crypto/Cipher/AES.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/cryptonite-0.21-BpO3rZu57xu84Yfxwqkb5K

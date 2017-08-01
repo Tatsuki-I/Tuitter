@@ -18,3 +18,10 @@ Preprocessing library attoparsec-0.13.1.0...
 [15 of 21] Compiling Data.Attoparsec.Types ( Data/Attoparsec/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Types.o )
 [16 of 21] Compiling Data.Attoparsec.ByteString ( Data/Attoparsec/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString.o )
 [17 of 21] Compiling Data.Attoparsec.ByteString.Char8 ( Data/Attoparsec/ByteString/Char8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString/Char8.o )
+[18 of 21] Compiling Data.Attoparsec.Char8 ( Data/Attoparsec/Char8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Char8.o )
+[19 of 21] Compiling Data.Attoparsec.ByteString.Lazy ( Data/Attoparsec/ByteString/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString/Lazy.o )
+[20 of 21] Compiling Data.Attoparsec.Lazy ( Data/Attoparsec/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Lazy.o )
+[21 of 21] Compiling Data.Attoparsec  ( Data/Attoparsec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/attoparsec-0.13.1.0-HCAgpBrKCLJ5li8FbfXxE1
+Registering attoparsec-0.13.1.0...
