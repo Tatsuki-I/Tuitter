@@ -14,3 +14,7 @@ Preprocessing library attoparsec-0.13.1.0...
 [11 of 21] Compiling Data.Attoparsec.ByteString.Internal ( Data/Attoparsec/ByteString/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString/Internal.o )
 [12 of 21] Compiling Data.Attoparsec.Text.Internal ( Data/Attoparsec/Text/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Text/Internal.o )
 [13 of 21] Compiling Data.Attoparsec.Text ( Data/Attoparsec/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Text.o )
+[14 of 21] Compiling Data.Attoparsec.Text.Lazy ( Data/Attoparsec/Text/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Text/Lazy.o )
+[15 of 21] Compiling Data.Attoparsec.Types ( Data/Attoparsec/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/Types.o )
+[16 of 21] Compiling Data.Attoparsec.ByteString ( Data/Attoparsec/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString.o )
+[17 of 21] Compiling Data.Attoparsec.ByteString.Char8 ( Data/Attoparsec/ByteString/Char8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Attoparsec/ByteString/Char8.o )
