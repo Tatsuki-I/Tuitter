@@ -76,9 +76,11 @@ tweetRun = do str <- fromMaybe "" <$> (runInputT defaultSettings
               case ans of
                   'y' -> do tweet . Data.ByteString.Char8.pack
                                   $ encodeString str
+                            Data.ByteString.putStrLn "Tweeted!"
                             continue
                   'Y' -> do tweet . Data.ByteString.Char8.pack
                                   $ encodeString str
+                            Data.ByteString.putStrLn "Tweeted!"
                             continue
                   _   -> continue
               where continue =  do Data.ByteString.putStr "Continue?[Y/n]> "

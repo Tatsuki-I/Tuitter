@@ -8,5 +8,5 @@ Data/Byteable.hs:48:11: warning: [-Winline-rule-shadowing]
       because ‘constEqBytes’ might inline first
     Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘constEqBytes’
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/byteable-0.1.1-2lU1pexQSLj1KbNO17UifQ
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/byteable-0.1.1-2lU1pexQSLj1KbNO17UifQ
 Registering byteable-0.1.1...

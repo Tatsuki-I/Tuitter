@@ -174,5 +174,5 @@ cbits/zlib-helper.c:75:9: error:
                    ^~~~~~~~~~~~~~~
 5 warnings generated.
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/streaming-commons-0.1.17-HBd3CFohH8MwZtF2Jef6G
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/streaming-commons-0.1.17-Ec7F62APEFzLqTOvsWpyBa
 Registering streaming-commons-0.1.17...

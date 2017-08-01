@@ -7,5 +7,5 @@ Preprocessing library crypto-pubkey-types-0.4.3...
 [4 of 5] Compiling Crypto.Types.PubKey.DSA ( Crypto/Types/PubKey/DSA.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Crypto/Types/PubKey/DSA.o )
 [5 of 5] Compiling Crypto.Types.PubKey.DH ( Crypto/Types/PubKey/DH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Crypto/Types/PubKey/DH.o )
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/crypto-pubkey-types-0.4.3-9FebxmE9offE8vhinynW4C
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/crypto-pubkey-types-0.4.3-HRW5kTsfGDK5lehNRXle9p
 Registering crypto-pubkey-types-0.4.3...

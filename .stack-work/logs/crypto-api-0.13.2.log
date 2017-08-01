@@ -37,5 +37,5 @@ cbits/misc.c:5:26: error:
                         (          )
 1 warning generated.
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/crypto-api-0.13.2-EFIpsTfEAVS5hiX8ezp3mb
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/crypto-api-0.13.2-IETueZuD8kB6D6D3e0Qo1q
 Registering crypto-api-0.13.2...

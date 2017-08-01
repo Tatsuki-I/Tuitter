@@ -38,5 +38,5 @@ Data/Hourglass.hs:40:1: warning: [-Wunused-imports]
 [16 of 17] Compiling Time.Compat      ( Time/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Time/Compat.o )
 [17 of 17] Compiling Data.Hourglass.Compat ( Data/Hourglass/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Hourglass/Compat.o )
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/hourglass-0.2.10-pnbvWmzfcY1rOFETQEmcY
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/hourglass-0.2.10-pnbvWmzfcY1rOFETQEmcY
 Registering hourglass-0.2.10...

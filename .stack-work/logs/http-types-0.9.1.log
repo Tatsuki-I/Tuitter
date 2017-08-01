@@ -25,5 +25,5 @@ Network/HTTP/Types/URI.hs:325:18: warning: [-Wdeprecations]
 [6 of 7] Compiling Network.HTTP.Types.Header ( Network/HTTP/Types/Header.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/HTTP/Types/Header.o )
 [7 of 7] Compiling Network.HTTP.Types ( Network/HTTP/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/HTTP/Types.o )
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/http-types-0.9.1-C3S9Qrl8dwlCH1CrKYHgZ2
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/http-types-0.9.1-LCKg6xWR7Zl3uApvn9xaVw
 Registering http-types-0.9.1...

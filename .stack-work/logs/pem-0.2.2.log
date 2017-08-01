@@ -10,5 +10,5 @@ Data/PEM.hs:11:1: warning: [-Wtabs]
     Tab character found here, and in one further location.
     Please use spaces instead.
 Installing library in
-/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/pem-0.2.2-CkEwei5500yF2642aAaOAi
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/pem-0.2.2-CkEwei5500yF2642aAaOAi
 Registering pem-0.2.2...
