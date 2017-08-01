@@ -1,0 +1,17 @@
+Configuring multipart-0.1.2...
+Building multipart-0.1.2...
+Preprocessing library multipart-0.1.2...
+[1 of 2] Compiling Network.Multipart.Header ( Network/Multipart/Header.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/Multipart/Header.o )
+
+Network/Multipart/Header.hs:49:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Network/Multipart/Header.hs:145:1: warning: [-Wtabs]
+    Tab character found here, and in 10 further locations.
+    Please use spaces instead.
+[2 of 2] Compiling Network.Multipart ( Network/Multipart.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/Multipart.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/multipart-0.1.2-1lshG78oNwt9o7Z22SZiQA
+Registering multipart-0.1.2...

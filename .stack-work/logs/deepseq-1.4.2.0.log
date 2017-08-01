@@ -1,0 +1,14 @@
+Configuring deepseq-1.4.2.0...
+Preprocessing library for deepseq-1.4.2.0..
+Building library for deepseq-1.4.2.0..
+[1 of 1] Compiling Control.DeepSeq  ( Control/DeepSeq.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.0.2/build/Control/DeepSeq.o )
+
+Control/DeepSeq.hs:420:10: error:
+    • Illegal instance declaration for ‘NFData TypeRep’
+        (All instance types must be of the form (T t1 ... tn)
+         where T is not a synonym.
+         Use TypeSynonymInstances if you want to disable this.)
+    • In the instance declaration for ‘NFData TypeRep’
+    |
+420 | instance NFData TypeRep where
+    |          ^^^^^^^^^^^^^^

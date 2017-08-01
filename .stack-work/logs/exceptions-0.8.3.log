@@ -1,0 +1,11 @@
+Configuring exceptions-0.8.3...
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package stm (stm-2.4.4.1-H7j4zZObh5z6Y14qwgJKZG) requires array-0.5.1.1-GY727hI6Ijn93DbMtfRl1D
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+Preprocessing library for exceptions-0.8.3..
+Building library for exceptions-0.8.3..
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.0.2/build/Control/Monad/Catch.o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.0.2/build/Control/Monad/Catch/Pure.o )
+Installing library in /Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.2.1/lib/x86_64-osx-ghc-8.2.1/exceptions-0.8.3-FdGyd1VA9TcEiLbJeU8m7W
+Registering library for exceptions-0.8.3..

@@ -1,0 +1,21 @@
+Configuring tagstream-conduit-0.5.5.3...
+Building tagstream-conduit-0.5.5.3...
+Preprocessing library tagstream-conduit-0.5.5.3...
+[1 of 6] Compiling Text.HTML.TagStream.Types ( Text/HTML/TagStream/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream/Types.o )
+[2 of 6] Compiling Text.HTML.TagStream.Utils ( Text/HTML/TagStream/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream/Utils.o )
+[3 of 6] Compiling Text.HTML.TagStream.Entities ( Text/HTML/TagStream/Entities.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream/Entities.o )
+[4 of 6] Compiling Text.HTML.TagStream.ByteString ( Text/HTML/TagStream/ByteString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream/ByteString.o )
+
+Text/HTML/TagStream/ByteString.hs:16:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[5 of 6] Compiling Text.HTML.TagStream.Text ( Text/HTML/TagStream/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream/Text.o )
+
+Text/HTML/TagStream/Text.hs:162:14: warning: [-Wdeprecations]
+    In the use of ‘parseText’ (imported from Text.XML.Stream.Parse):
+    Deprecated: "Please use 'parseText'' or 'parseTextPos'."
+[6 of 6] Compiling Text.HTML.TagStream ( Text/HTML/TagStream.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/HTML/TagStream.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/tagstream-conduit-0.5.5.3-2TevoRvFtqs2nZZDkuYByi
+Registering tagstream-conduit-0.5.5.3...

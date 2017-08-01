@@ -1,0 +1,21 @@
+Configuring xhtml-3000.2.2...
+Building xhtml-3000.2.2...
+Preprocessing library xhtml-3000.2.2...
+[ 1 of 15] Compiling Text.XHtml.Internals ( Text/XHtml/Internals.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Internals.o )
+[ 2 of 15] Compiling Text.XHtml.Strict.Attributes ( Text/XHtml/Strict/Attributes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Strict/Attributes.o )
+[ 3 of 15] Compiling Text.XHtml.Strict.Elements ( Text/XHtml/Strict/Elements.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Strict/Elements.o )
+[ 4 of 15] Compiling Text.XHtml.Transitional.Attributes ( Text/XHtml/Transitional/Attributes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Transitional/Attributes.o )
+[ 5 of 15] Compiling Text.XHtml.Transitional.Elements ( Text/XHtml/Transitional/Elements.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Transitional/Elements.o )
+[ 6 of 15] Compiling Text.XHtml.Frameset.Elements ( Text/XHtml/Frameset/Elements.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Frameset/Elements.o )
+[ 7 of 15] Compiling Text.XHtml.Frameset.Attributes ( Text/XHtml/Frameset/Attributes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Frameset/Attributes.o )
+[ 8 of 15] Compiling Text.XHtml.Extras ( Text/XHtml/Extras.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Extras.o )
+[ 9 of 15] Compiling Text.XHtml.Frameset ( Text/XHtml/Frameset.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Frameset.o )
+[10 of 15] Compiling Text.XHtml.Strict ( Text/XHtml/Strict.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Strict.o )
+[11 of 15] Compiling Text.XHtml.Transitional ( Text/XHtml/Transitional.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Transitional.o )
+[12 of 15] Compiling Text.XHtml.BlockTable ( Text/XHtml/BlockTable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/BlockTable.o )
+[13 of 15] Compiling Text.XHtml.Table ( Text/XHtml/Table.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Table.o )
+[14 of 15] Compiling Text.XHtml.Debug ( Text/XHtml/Debug.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml/Debug.o )
+[15 of 15] Compiling Text.XHtml       ( Text/XHtml.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XHtml.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/xhtml-3000.2.2-EHpjJ3HAvrHAJjSEish8Gx
+Registering xhtml-3000.2.2...

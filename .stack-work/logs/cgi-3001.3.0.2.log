@@ -1,0 +1,28 @@
+Configuring cgi-3001.3.0.2...
+Building cgi-3001.3.0.2...
+Preprocessing library cgi-3001.3.0.2...
+
+Network/CGI.hs:1:14: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Network/CGI/Monad.hs:1:16: warning:
+    -fglasgow-exts is deprecated: Use individual extensions instead
+[1 of 6] Compiling Network.CGI.Protocol ( Network/CGI/Protocol.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI/Protocol.o )
+[2 of 6] Compiling Network.CGI.Monad ( Network/CGI/Monad.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI/Monad.o )
+
+Network/CGI/Monad.hs:31:1: warning: [-Wdodgy-imports]
+    Module ‘Prelude’ does not export ‘catch’
+
+Network/CGI/Monad.hs:60:1: warning: [-Wtabs]
+    Tab character found here, and in two further locations.
+    Please use spaces instead.
+[3 of 6] Compiling Network.CGI.Cookie ( Network/CGI/Cookie.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI/Cookie.o )
+[4 of 6] Compiling Network.CGI.Compat ( Network/CGI/Compat.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI/Compat.o )
+[5 of 6] Compiling Network.CGI.Accept ( Network/CGI/Accept.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI/Accept.o )
+
+Network/CGI/Accept.hs:33:5: warning: [-Wunused-top-binds]
+    Defined but not used: ‘top’
+[6 of 6] Compiling Network.CGI      ( Network/CGI.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Network/CGI.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/cgi-3001.3.0.2-B58WFD8qnhHCrr56RwqOvI
+Registering cgi-3001.3.0.2...

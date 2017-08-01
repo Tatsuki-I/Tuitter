@@ -1,0 +1,20 @@
+Configuring dataenc-0.14.0.7...
+Building dataenc-0.14.0.7...
+Preprocessing library dataenc-0.14.0.7...
+[ 1 of 14] Compiling Codec.Binary.Util ( src/Codec/Binary/Util.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Util.o )
+[ 2 of 14] Compiling Codec.Binary.Uu  ( src/Codec/Binary/Uu.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Uu.o )
+[ 3 of 14] Compiling Codec.Binary.Xx  ( src/Codec/Binary/Xx.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Xx.o )
+[ 4 of 14] Compiling Codec.Binary.Yenc ( src/Codec/Binary/Yenc.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Yenc.o )
+[ 5 of 14] Compiling Codec.Binary.Url ( src/Codec/Binary/Url.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Url.o )
+[ 6 of 14] Compiling Codec.Binary.QuotedPrintable ( src/Codec/Binary/QuotedPrintable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/QuotedPrintable.o )
+[ 7 of 14] Compiling Codec.Binary.PythonString ( src/Codec/Binary/PythonString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/PythonString.o )
+[ 8 of 14] Compiling Codec.Binary.Base85 ( src/Codec/Binary/Base85.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base85.o )
+[ 9 of 14] Compiling Codec.Binary.Base64 ( src/Codec/Binary/Base64.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base64.o )
+[10 of 14] Compiling Codec.Binary.Base64Url ( src/Codec/Binary/Base64Url.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base64Url.o )
+[11 of 14] Compiling Codec.Binary.Base32 ( src/Codec/Binary/Base32.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base32.o )
+[12 of 14] Compiling Codec.Binary.Base32Hex ( src/Codec/Binary/Base32Hex.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base32Hex.o )
+[13 of 14] Compiling Codec.Binary.Base16 ( src/Codec/Binary/Base16.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/Base16.o )
+[14 of 14] Compiling Codec.Binary.DataEncoding ( src/Codec/Binary/DataEncoding.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Binary/DataEncoding.o )
+Installing library in
+/Users/tatsuki/GitHub/Tuitter/.stack-work/install/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/dataenc-0.14.0.7-FBNv2fhyrsKJWECfjHhEvk
+Registering dataenc-0.14.0.7...

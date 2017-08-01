@@ -1,0 +1,77 @@
+Configuring xml-conduit-1.5.1...
+Building xml-conduit-1.5.1...
+Preprocessing library xml-conduit-1.5.1...
+[1 of 7] Compiling Text.XML.Stream.Token ( Text/XML/Stream/Token.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Stream/Token.o )
+[2 of 7] Compiling Text.XML.Stream.Render ( Text/XML/Stream/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Stream/Render.o )
+
+Text/XML/Stream/Render.hs:34:1: warning: [-Wunused-imports]
+    The import of ‘Control.Monad.Trans.Resource’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Trans.Resource’
+    To import instances alone, use: import Control.Monad.Trans.Resource()
+
+Text/XML/Stream/Render.hs:35:1: warning: [-Wunused-imports]
+    The import of ‘Data.ByteString’ is redundant
+      except perhaps to import instances from ‘Data.ByteString’
+    To import instances alone, use: import Data.ByteString()
+
+Text/XML/Stream/Render.hs:59:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      renderBytes :: (primitive-0.6.2.0:Control.Monad.Primitive.PrimMonad
+                        base,
+                      transformers-base-0.4.4:Control.Monad.Base.MonadBase base m) =>
+                     RenderSettings -> ConduitM Event ByteString m ()
+
+Text/XML/Stream/Render.hs:68:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      renderText :: (MonadThrow m,
+                     transformers-base-0.4.4:Control.Monad.Base.MonadBase base m,
+                     primitive-0.6.2.0:Control.Monad.Primitive.PrimMonad base) =>
+                    RenderSettings -> ConduitM Event Text m ()
+
+Text/XML/Stream/Render.hs:120:18: warning: [-Wname-shadowing]
+    This binding for ‘attr’ shadows the existing binding
+      defined at Text/XML/Stream/Render.hs:413:1
+
+Text/XML/Stream/Render.hs:393:25: warning: [-Wname-shadowing]
+    This binding for ‘content’ shadows the existing binding
+      defined at Text/XML/Stream/Render.hs:400:1
+[3 of 7] Compiling Text.XML.Stream.Parse ( Text/XML/Stream/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Stream/Parse.o )
+
+Text/XML/Stream/Parse.hs:161:1: warning: [-Wunused-imports]
+    The import of ‘<$>’ from module ‘Control.Applicative’ is redundant
+
+Text/XML/Stream/Parse.hs:166:1: warning: [-Wunused-imports]
+    The import of ‘guard’ from module ‘Control.Monad’ is redundant
+
+Text/XML/Stream/Parse.hs:725:20: warning: [-Wname-shadowing]
+    This binding for ‘attr’ shadows the existing binding
+      defined at Text/XML/Stream/Parse.hs:945:1
+[4 of 7] Compiling Text.XML.Unresolved ( Text/XML/Unresolved.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Unresolved.o )
+
+Text/XML/Unresolved.hs:130:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      renderBytes :: (transformers-base-0.4.4:Control.Monad.Base.MonadBase
+                        base m,
+                      primitive-0.6.2.0:Control.Monad.Primitive.PrimMonad base) =>
+                     R.RenderSettings -> Document -> ConduitM a ByteString m ()
+
+Text/XML/Unresolved.hs:133:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      renderText :: (primitive-0.6.2.0:Control.Monad.Primitive.PrimMonad
+                       base,
+                     transformers-base-0.4.4:Control.Monad.Base.MonadBase base m,
+                     MonadThrow m) =>
+                    R.RenderSettings -> Document -> ConduitM a Text m ()
+[5 of 7] Compiling Text.XML.Cursor.Generic ( Text/XML/Cursor/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Cursor/Generic.o )
+[6 of 7] Compiling Text.XML         ( Text/XML.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML.o )
+
+Text/XML.hs:283:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      renderBytes :: (primitive-0.6.2.0:Control.Monad.Primitive.PrimMonad
+                        base,
+                      transformers-base-0.4.4:Control.Monad.Base.MonadBase base m) =>
+                     D.RenderSettings -> Document -> ConduitM a ByteString m ()
+[7 of 7] Compiling Text.XML.Cursor  ( Text/XML/Cursor.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/XML/Cursor.o )
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-9.0/8.0.2/lib/x86_64-osx-ghc-8.0.2/xml-conduit-1.5.1-Cogil2qM3J1HEStzc8LHP
+Registering xml-conduit-1.5.1...
