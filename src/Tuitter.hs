@@ -24,13 +24,13 @@ import Data.Maybe
 
 myOAuth :: OAuth
 myOAuth = newOAuth { oauthServerName = "api.twitter.com"
-                   , oauthConsumerKey = "LWTAypKV0UPkOcN7nehd6Guix"
-                   , oauthConsumerSecret = "WBOH05OAsByPeoeDpESWcuw66RRyPlHOhBF79qbybSG5r0cl0k"
+                   , oauthConsumerKey = ""
+                   , oauthConsumerSecret = ""
                    }
 
 myCred :: Credential
-myCred = newCredential "791270600903757824-f8FPgOrjJIb5nCB3gdq23mTLMesgXKb"
-                       "GmOZuh4xabqRJEoPJM1qptBTl1oqfbyFeGLoMbh01ZzhU"
+myCred = newCredential ""
+                       ""
 
 data Tweet = Tweet { text :: !Text
                    } deriving (Show, Generic)
@@ -50,7 +50,7 @@ getTweets name = do
 {-
 main :: IO ()
 main = do
-    ets <- getTweets "ttk_vim"
+    ets <- getTweets ""
     case ets of
       Left err -> putStrLn err
       Right ts -> mapM_ T.putStrLn . map text $ take 5 ts

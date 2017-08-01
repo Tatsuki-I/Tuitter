@@ -7,12 +7,12 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
-/* package aeson-1.0.2.1 */
-#define VERSION_aeson "1.0.2.1"
+/* package aeson-1.1.2.0 */
+#define VERSION_aeson "1.1.2.0"
 #define MIN_VERSION_aeson(major1,major2,minor) (\
   (major1) <  1 || \
-  (major1) == 1 && (major2) <  0 || \
-  (major1) == 1 && (major2) == 0 && (minor) <= 2)
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 2)
 
 /* package authenticate-oauth-1.6 */
 #define VERSION_authenticate_oauth "1.6"
@@ -35,22 +35,22 @@
   (major1) == 0 && (major2) <  10 || \
   (major1) == 0 && (major2) == 10 && (minor) <= 8)
 
-/* package haskeline-0.7.3.1 */
-#define VERSION_haskeline "0.7.3.1"
+/* package haskeline-0.7.4.0 */
+#define VERSION_haskeline "0.7.4.0"
 #define MIN_VERSION_haskeline(major1,major2,minor) (\
   (major1) <  0 || \
   (major1) == 0 && (major2) <  7 || \
-  (major1) == 0 && (major2) == 7 && (minor) <= 3)
+  (major1) == 0 && (major2) == 7 && (minor) <= 4)
 
-/* package http-conduit-2.2.3 */
-#define VERSION_http_conduit "2.2.3"
+/* package http-conduit-2.2.3.2 */
+#define VERSION_http_conduit "2.2.3.2"
 #define MIN_VERSION_http_conduit(major1,major2,minor) (\
   (major1) <  2 || \
   (major1) == 2 && (major2) <  2 || \
   (major1) == 2 && (major2) == 2 && (minor) <= 3)
 
-/* package text-1.2.2.1 */
-#define VERSION_text "1.2.2.1"
+/* package text-1.2.2.2 */
+#define VERSION_text "1.2.2.2"
 #define MIN_VERSION_text(major1,major2,minor) (\
   (major1) <  1 || \
   (major1) == 1 && (major2) <  2 || \
@@ -63,12 +63,19 @@
   (major1) == 1 && (major2) <  0 || \
   (major1) == 1 && (major2) == 0 && (minor) <= 1)
 
-/* package vty-5.15 */
-#define VERSION_vty "5.15"
+/* package vty-5.16 */
+#define VERSION_vty "5.16"
 #define MIN_VERSION_vty(major1,major2,minor) (\
   (major1) <  5 || \
-  (major1) == 5 && (major2) <  15 || \
-  (major1) == 5 && (major2) == 15 && (minor) <= 0)
+  (major1) == 5 && (major2) <  16 || \
+  (major1) == 5 && (major2) == 16 && (minor) <= 0)
+
+/* tool cpphs-1.20.8 */
+#define TOOL_VERSION_cpphs "1.20.8"
+#define MIN_TOOL_VERSION_cpphs(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  20 || \
+  (major1) == 1 && (major2) == 20 && (minor) <= 8)
 
 /* tool gcc-4.2.1 */
 #define TOOL_VERSION_gcc "4.2.1"
@@ -98,6 +105,13 @@
   (major1) == 2 && (major2) <  17 || \
   (major1) == 2 && (major2) == 17 && (minor) <= 3)
 
+/* tool happy-1.19.5 */
+#define TOOL_VERSION_happy "1.19.5"
+#define MIN_TOOL_VERSION_happy(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  19 || \
+  (major1) == 1 && (major2) == 19 && (minor) <= 5)
+
 /* tool hpc-0.67 */
 #define TOOL_VERSION_hpc "0.67"
 #define MIN_TOOL_VERSION_hpc(major1,major2,minor) (\
@@ -112,6 +126,13 @@
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 1)
 
+/* tool hscolour-1.24 */
+#define TOOL_VERSION_hscolour "1.24"
+#define MIN_TOOL_VERSION_hscolour(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  24 || \
+  (major1) == 1 && (major2) == 24 && (minor) <= 0)
+
 /* tool pkg-config-0.29.2 */
 #define TOOL_VERSION_pkg_config "0.29.2"
 #define MIN_TOOL_VERSION_pkg_config(major1,major2,minor) (\
@@ -119,7 +140,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "Tuitter-0.1.0.0-G9B9dLW0brA9uok2t4HJ34"
+#define CURRENT_COMPONENT_ID "Tuitter-0.1.0.0-1eVgorDwDJr5D2XTSKaCrs"
 
-#define CURRENT_PACKAGE_KEY "Tuitter-0.1.0.0-G9B9dLW0brA9uok2t4HJ34"
+#define CURRENT_PACKAGE_KEY "Tuitter-0.1.0.0-1eVgorDwDJr5D2XTSKaCrs"
 
